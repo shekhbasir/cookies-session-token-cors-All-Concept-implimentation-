@@ -5,7 +5,7 @@ const session=require('express-session');
 const hamarsignup = async (req, res) => {
   try {
 
-    console.log("REQ BODY:", req.body);
+    // console.log("REQ BODY:", req.body);
 
     const { username, password } = req.body;
 

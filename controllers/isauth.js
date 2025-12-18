@@ -32,7 +32,6 @@ const isvalidtoken = (req, res, next) => {
 
 
 
-//now i am going to making the session base login checking 
 
 const bysessioncheck=(req,res,next)=>{
   
